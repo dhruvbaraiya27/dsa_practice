@@ -4,6 +4,7 @@ class Solution {
         int n=s.length();
         while(left>=0 && right<n && s.charAt(left)==s.charAt(right))
         {
+            
             if(right-left+1 > resLen[0])
             {
                 res[0] = s.substring(left,right+1);
