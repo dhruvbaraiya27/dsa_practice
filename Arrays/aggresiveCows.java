@@ -20,7 +20,6 @@ class GFG {
             int k = Integer.parseInt(nk[0]);
             Solution sln = new Solution();
             int ans = sln.aggressiveCows(a, k);
-
             System.out.println(ans);
             System.out.println("~");
         }
