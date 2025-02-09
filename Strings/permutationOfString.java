@@ -17,9 +17,7 @@ class Solution {
         for(int i=index;i<chars.length;i++)
         {
             if(seen.contains(chars[i]))
-            {
-                continue;
-            }
+            continue;
             seen.add(chars[i]);
             swap(chars,i,index);
             solve(chars,res,index+1);
