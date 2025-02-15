@@ -11,7 +11,6 @@ class GFG {
         int tc = Integer.parseInt(br.readLine().trim());
 
         while (tc-- > 0) {
-
             String[] str = br.readLine().trim().split(" ");
             int[] a = new int[str.length];
             for (int i = 0; i < str.length; i++) {
