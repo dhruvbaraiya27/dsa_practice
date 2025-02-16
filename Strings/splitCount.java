@@ -7,7 +7,7 @@ class Solution {
        int splitCount=0;
        
        for(char c: str.toCharArray())
-       {
+           {
            if(c=='0')
            {
                count0++;
