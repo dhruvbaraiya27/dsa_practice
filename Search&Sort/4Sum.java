@@ -20,10 +20,8 @@ class Solution {
                     if(sum==target)
                     {
                         list.add(new ArrayList<>(Arrays.asList(arr[i],arr[j],arr[l],arr[r])));
-                        
                         while(l<r && arr[l]==arr[l+1]) l++;
                         while(l<r && arr[r]==arr[r-1]) r--;
-                        
                         l++;
                         r--;
                     }
