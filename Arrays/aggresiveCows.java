@@ -9,7 +9,6 @@ class GFG {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         int tc = Integer.parseInt(br.readLine().trim());
-
         while (tc-- > 0) {
             String[] str = br.readLine().trim().split(" ");
             int[] a = new int[str.length];
