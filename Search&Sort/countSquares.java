@@ -9,7 +9,6 @@ class Solution {
         while(low<=high)
         {
             int mid = low+(high-low)/2;
-            
             if((long) mid * mid <n)
             {
                 ans =mid;
