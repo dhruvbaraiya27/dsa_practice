@@ -9,7 +9,7 @@ class Solution {
         {
             if(stalls[i]-lastCow >=distance)
             {
-                count++;
+             count++;
                 lastCow=stalls[i];
             }
         }
