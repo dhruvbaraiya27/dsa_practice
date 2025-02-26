@@ -16,6 +16,7 @@ class Solution {
             
             if(map.containsKey(requireXOR))
             {
+                
                 count += map.get(requireXOR);
             }
             map.put(prefixXOR, map.getOrDefault(prefixXOR,0)+1);
