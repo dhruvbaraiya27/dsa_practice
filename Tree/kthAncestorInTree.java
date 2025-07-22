@@ -32,6 +32,6 @@ class Solution {
         // Write your code here
         int[] kValue = new int[]{k};
         int result = findKthAncestor(root, node, kValue);
-        return kValue[0] > 0 ? -1 : result;
+        return (result == node || kValue[0] > 0) ? -1 : result;
     }
 }
