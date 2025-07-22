@@ -33,7 +33,7 @@ class Solution {
     }
     public int sumK(Node root, int k) {
         // code here
-        ArrayList<Integer> path = new ArrayList<>();
-        return solve(root, k, path);
+        
+        return solve(root, k, new ArrayList<>());
     }
 }
