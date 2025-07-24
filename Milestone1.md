@@ -1,3 +1,5 @@
+
+
 # 📌 Milestone 1 - Group 7
 
 ---
@@ -9,7 +11,7 @@
 
 ## 📝 Problem Statement
 
-In today’s fast-paced business environment, organizations must efficiently manage their inventory to ensure smooth operations, minimize costs, and meet customer demands. Traditional manual inventory management methods are often error-prone, time-consuming, and lack real-time visibility, leading to issues such as stockouts, overstocking, delayed order processing, and inaccurate record-keeping. These inefficiencies can result in lost sales, increased operational costs, and poor customer satisfaction. Furthermore, managing related business processes such as employee and buyer information, purchase orders, and invoice generation—adds complexity and increases the risk of data inconsistencies and miscommunication between departments.
+In today’s fast-paced business environment, organizations must efficiently manage their inventory to ensure smooth operations, minimize costs, and meet customer demands. Traditional manual inventory management methods are often error-prone, time-consuming, and lack real-time visibility, leading to issues such as stockouts, overstocking, delayed order processing, and inaccurate record-keeping. These inefficiencies can result in lost sales, increased operational costs, and poor customer satisfaction. Furthermore, managing related business processes such as employee and buyer information, purchase orders, and invoice generation adds complexity and increases the risk of data inconsistencies and miscommunication between departments.
 
 To address these challenges, the Inventory Management System provides a comprehensive, web-based solution that automates and integrates all aspects of inventory control and related business operations. The system allows users to seamlessly add, update, and track products, manage buyer and employee records, process purchase orders, and generate invoices, all from a unified interface. Real-time data synchronization ensures that inventory levels and order statuses are always up-to-date, enabling timely decision-making and reducing the risk of errors. The application also incorporates features such as secure authentication, automated notifications for critical events (e.g., low stock alerts), and the ability to generate professional PDF invoices. By streamlining workflows and centralizing data, the system enhances operational efficiency, supports scalability, and empowers organizations to respond quickly to changing business needs.
 
@@ -73,7 +75,7 @@ To address these challenges, the Inventory Management System provides a comprehe
 
 ## 🗂️ UML/ER Diagram
 
-![UML Diagram](uml_diagram.jpeg)
+![UML Diagram](UML.jpeg)
 
 > The UML diagram showcases the main entities: Product, Order, Buyer, Employee, and Invoice, along with their relationships.
 
@@ -90,3 +92,5 @@ To address these challenges, the Inventory Management System provides a comprehe
 | Dhruv Baraiya     | Compiled team contributions and verified milestone formatting. |
 
 ---
+
+
